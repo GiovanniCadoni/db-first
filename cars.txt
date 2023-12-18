@@ -1,0 +1,17 @@
+cars
+
+id - SMALLINT - UNSIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+brand - VARCHAR(16) - NOTNULL
+name_model - VARCHAR(16) - NOTNULL
+color_model - VARCHAR(16) - NOTNULL
+year_model - YEAR - NOTNULL
+horsepower - SMALLINT - NOTNULL
+power_supply - VARCHAR(16) - NOTNULL
+type_traction - VARCHAR(16) - NOTNULL
+km_done - INT - NOTNULL
+price - DECIMAL(8,2) - NOTNULL
+spare_parts - TEXT - NOTNULL
+is_works - VARCHAR(255) - NOTNULL
+nationality_license - VARCHAR(16) - NOTNULL
+optionals - VARCHAR(255) - NULL
+
